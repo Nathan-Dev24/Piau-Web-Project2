@@ -63,7 +63,7 @@ color: #FF5001;
 	font-size: xx-large;
 }
 button {
-	font-size: x-large;
+	font-size: large;
 	padding: 2%;
 	gap: 8px;
 	border-style: solid;
@@ -92,30 +92,24 @@ button {
 p {
 	padding: 0% 0% 2% 1% ;
 }
-.about-container {
-	display: flex;
-	border-style: solid;
-	border-width: thin;
-	justify-content: center;
-	align-items: center;
-	font-size:xx-large;
-	padding: 0%;
-	margin: 0%;
-}
 .about-item {
 	display: flex;
-	flex-direction: row;
-	gap: 15px;
-	text-align: justify;
-	font-size: x-large;
+	flex-direction: column;
+	gap: 1rem;
 }
 .img1 {
-	width: 30%;
-	border-style: hidden;
-	border-width: thin;
-	border-radius: 8px;
-	padding-left: 3%;
-	padding-bottom: 3%;
+	width: 50%;
+	height: auto;
+	float: left;
+}
+img {
+	border: 2px solid transparent;
+	border-radius: 6px;
+}
+.about-item {
+	content: "";
+	clear: both;
+	display: table;
 }
 .button3 {
 	padding: 2%;
@@ -129,21 +123,21 @@ p {
 h2,.p1 {
 	text-align: center;
 }
-.our-services {
+/* .our-services {
 	border-style: solid;
 	border-width: thin;
 	border-color: black;
 	padding: 2%;
 	margin-top: 2%;
-}
-.services-container {
+} */
+/* .services-container {
 	display: flex;
 	justify-content: center;
-}
+} */
 .service-cards {
 	display: flex;
 	justify-content: space-between;
-	gap: 10px;
+	gap: 8px;
 }
 .cards {
 	display: flex;
@@ -189,10 +183,7 @@ background-color: white;
 }
 .recipes {
 	display: flex;
-	border-style: solid;
 	justify-content: center;
-	border-width: thin;
-	border-color: black;
 	padding: 2%;
 	margin-top: 2%;
 	text-align: center;
@@ -220,10 +211,10 @@ img {
 	height: 20rem
 }
 .recipe-cards {
-	margin: 12px;
+	margin: 6px;
 	border-style: solid;
 	border-width: thin;
-	border-color: black;
+	border-color: transparent;
 	border-radius: 8px;
 }
 .card {
